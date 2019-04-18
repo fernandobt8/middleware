@@ -1,0 +1,23 @@
+*.class
+*.project
+*.orig
+**/.classpath
+**/.factorypath
+.settings/
+out/
+
+# Ignorar gerados pelos "annotation processing" mas não os gerados que estiverem em src #
+generated/
+!/**/src/**
+
+# Eclipse e Mvn #
+bin/
+build/
+target/
+metamodel/
+.metadata
+
+# IntelliJ #
+.idea/
+out/
+*.iml
