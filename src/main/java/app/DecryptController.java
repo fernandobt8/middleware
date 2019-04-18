@@ -46,9 +46,4 @@ public class DecryptController {
 			return ResponseEntity.badRequest().body(e.getMessage());
 		}
 	}
-
-	@PostMapping("/receb")
-	public void receb(@RequestBody String body){
-		System.out.println(body);
-	}
 }
