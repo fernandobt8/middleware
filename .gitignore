@@ -10,6 +10,8 @@ out/
 generated/
 !/**/src/**
 
+log/*
+
 # Eclipse e Mvn #
 bin/
 build/

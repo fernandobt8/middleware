@@ -11,7 +11,7 @@ import app.decrypt.Key;
 @Configuration
 @ComponentScan("app")
 @SpringBootApplication
-@EnableConfigurationProperties({ Key.class })
+@EnableConfigurationProperties({ Key.class , EndpointConfig.class})
 public class SpringBootServerStarter {
 
 	public static void main(String[] args) {
